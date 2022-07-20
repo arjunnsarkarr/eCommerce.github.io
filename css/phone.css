@@ -1,0 +1,117 @@
+/* responsive */
+
+
+
+
+/* navigation  */
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar li a{
+    font-size: 1rem;
+    padding: 0px 5px;
+    margin: auto;
+    padding: 2px 10px;
+}
+
+
+
+/* home*/
+#home{
+    height: 400px;
+    padding: 0px
+    ;
+}
+#home::before{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    /* width: 28rem; */
+}
+
+#home h1{
+    font-size: 1rem;
+    margin: 5px 2px;
+    width: 150px;
+}
+#home button{
+    font-size: 16px;
+    padding: 2px 15px;
+    width: 139px;
+    height: 29px;
+    margin: 29px 1px;
+}
+#home p{
+    display: none;
+}
+
+/* services */
+#servicebox{
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#services .box img {
+    height: 5rem;
+    width: 9rem;
+}
+
+/* partner  */
+.partner-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#partners::before{ 
+ display: none;   
+    
+}
+#partnerbox img {
+    width: 10rem
+}
+
+
+/* contact us  */
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* transform: rotateX(90deg); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

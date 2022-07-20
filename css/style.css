@@ -1,0 +1,275 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+/* smooth scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* css variable  */
+:root{
+    --navbar-height : 60px ;
+}
+
+
+/* navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* list item styling  */
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 2px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* logo styling  */
+#logo img {
+    margin: 6px 20px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 250px;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    margin-bottom: 50px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url(../bgorder.jpg) no-repeat center center/cover;
+}
+
+
+#home h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+#home p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Allison', cursive;
+}
+
+
+/* services section  */
+
+#services{
+    margin-top: 70px;
+}
+#servicebox{
+    margin: 20px;
+    display: flex;
+    font-family: 'Allison', cursive;
+    align-items: center;
+    justify-content: center;
+}
+#services .box{
+    border: 3px solid brown;
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    background-color: #d3f4f966;
+}
+#services .box img{
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+
+
+#partners::before{ 
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+    background: url('../bgshopping.jpg') no-repeat center center/cover;
+}
+
+#partnerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#partnerbox img{
+    margin: 15px 20px;
+}
+
+.mrktptnr:hover{
+cursor: pointer;
+}
+
+#apple{    
+    height: 134px;
+    width: 220px;
+}
+#hp{
+    height: 140px;
+    width: 165px;
+}
+#pe{
+    height: 100px;
+    width: 260px;
+}
+#lv{
+    height: 150px;
+    width: 130px;
+}
+
+
+
+
+
+/* contact section  */
+#contact{
+    position: relative;
+    top: 4rem;
+    bottom: 3.4rem;
+    margin:auto;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+    background: url('../contact.jpg') no-repeat center center/cover ;
+}
+
+
+
+.contactbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px  ;
+    padding-bottom: 40px;
+}
+
+.contactbox input{
+    width: 100%;
+    margin: 2px;
+    padding: .3rem;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+.contactbox form{
+    width: 40% ;
+}
+.contactbox label{
+font-size: 1.2rem;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+
+/* utility classes */
+.h1-primary{
+    font-size: 2.5rem;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.h1-secondary{
+    font-size: 1.5rem;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 1.2rem;   
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
